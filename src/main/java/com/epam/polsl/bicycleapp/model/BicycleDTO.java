@@ -1,4 +1,4 @@
-package com.epam.polsl.bicycleapp.dataProviders;
+package com.epam.polsl.bicycleapp.model;
 
 import lombok.Builder;
 import lombok.Data;

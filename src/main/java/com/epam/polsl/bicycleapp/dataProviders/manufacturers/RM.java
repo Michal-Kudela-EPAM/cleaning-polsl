@@ -1,8 +1,8 @@
 package com.epam.polsl.bicycleapp.dataProviders.manufacturers;
 
-import com.epam.polsl.bicycleapp.dataProviders.BicycleDTO;
-import com.epam.polsl.bicycleapp.dataProviders.BicycleType;
-import com.epam.polsl.bicycleapp.dataProviders.FrameType;
+import com.epam.polsl.bicycleapp.model.BicycleDTO;
+import com.epam.polsl.bicycleapp.model.BicycleType;
+import com.epam.polsl.bicycleapp.model.FrameType;
 
 import java.util.List;
 

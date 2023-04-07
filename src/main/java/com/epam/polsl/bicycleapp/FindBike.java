@@ -1,6 +1,6 @@
 package com.epam.polsl.bicycleapp;
 
-import com.epam.polsl.bicycleapp.dataProviders.BicycleDTO;
+import com.epam.polsl.bicycleapp.model.BicycleDTO;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.web.bind.annotation.GetMapping;

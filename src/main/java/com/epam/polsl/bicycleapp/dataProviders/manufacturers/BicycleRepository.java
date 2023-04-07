@@ -1,7 +1,7 @@
 package com.epam.polsl.bicycleapp.dataProviders.manufacturers;
 
-import com.epam.polsl.bicycleapp.dataProviders.BicycleDTO;
-import com.epam.polsl.bicycleapp.dataProviders.BikeSearchDTO;
+import com.epam.polsl.bicycleapp.model.BicycleDTO;
+import com.epam.polsl.bicycleapp.model.BikeSearchDTO;
 
 import java.util.List;
 import java.util.stream.Collectors;
