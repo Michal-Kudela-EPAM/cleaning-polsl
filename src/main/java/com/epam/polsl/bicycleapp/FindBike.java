@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 public class FindBike {
 
-    @GetMapping
+    @GetMapping("bicycle-finder")
     public List<BicycleDTO> findBikes(
             @RequestParam(value = "manufacturer", required = false) String manufacturer,
             @RequestParam(value = "maximumWeight", required = false) String maximumWeight,
@@ -45,7 +45,7 @@ public class FindBike {
                     rometUrl.append("electric=").append(electric);
                 }
                 if(type != null) {
-                    rometUrl.append("type=").append(type);
+                    rometUrl.append("typ=").append(type);
                 }
                 if(maximumWeight != null) {
                     rometUrl.append("maximumWeight=").append(maximumWeight);
