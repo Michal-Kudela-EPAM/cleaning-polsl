@@ -124,6 +124,7 @@ public class FindBike {
                 double priceInEur = bicycleDTO.getPrice() * bikeExchange;
                 double priceInTarget = priceInEur / targetExchange;
                 bicycleDTO.setPrice(priceInTarget);
+                bicycleDTO.setCurrency(currency.toUpperCase());
             }
 
             //Filter by price

@@ -18,6 +18,6 @@ public class CurrencyController {
 
     @GetMapping("currency/exchange/{currency}")
     public Double exchange(@PathVariable("currency") String currency) {
-        return valueInEuro.getOrDefault(currency, 1.0);
+        return valueInEuro.getOrDefault(currency.toUpperCase(), 1.0);
     }
 }
