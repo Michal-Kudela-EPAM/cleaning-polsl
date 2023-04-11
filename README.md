@@ -14,7 +14,7 @@ błędu opisanego poniżej:
 
 ### POLSL-12345 NullPointerException przy podaniu maksymalnej wagi roweru
 
-#### Przy wykonywaniu zapytania do serwisu zdarza się wystąpienie wyjątku NullPointerException. Błąd występuje tylko kiedy zdefiniowana jest maksymalna masa roweru
+#### Przy wykonywaniu zapytania do serwisu z parametrem maximumWeight nie są zwracane rowery marki Riese & Müller
 
 Wewnątrz pakietu `dataProviders` znajdują się RESTowe kontrolery mające na celu symulowanie innych serwisów 
 internetowych, na potrzeby testowania. Kod ten należy uznać za black box.

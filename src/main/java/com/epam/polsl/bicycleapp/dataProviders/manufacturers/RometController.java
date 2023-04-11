@@ -20,7 +20,7 @@ public class RometController {
             @RequestParam(value = "manufacturer", required = false) String manufacturer,
             @RequestParam(value = "maximumWeight", required = false) String maximumWeight,
             @RequestParam(value = "minimumWeight", required = false) String minimumWeight,
-            @RequestParam(value = "type", required = false) String type,
+            @RequestParam(value = "typ", required = false) String type,
             @RequestParam(value = "frameTypes", required = false) String frameTypes,
             @RequestParam(value = "electric", required = false) String electric
     ) {
